@@ -139,14 +139,7 @@ main {
 
 /* INICIO CONTACTO */
 
-.contactotitulo {
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 50px;
-    text-shadow: 3px 3px 3px #726659;
-}
+
 label {
     color: #bbb5af;
     font-size: 20px;
@@ -207,96 +200,9 @@ input:hover:focus::placeholder, textarea:hover:focus::placeholder {
     color: #cbc6c1;
 }
 
-#form {
-    position: relative;
-    width: 500px;
-    margin: 50px auto 100px auto;
-}
 
-textarea {
-    width: 470px;
-    max-width: 470px;
-    height: 110px;
-    max-height: 110px;
-    padding: 15px;
-    background: #ffffff;
-    outline: none;
-    color: #726659;
-    font-size: 16px;
-    border: solid 1px #b3aca7;
-    transition: all 0.3s ease-in-out;
-}
 
-textarea:hover {
-    background: #b3aca7;
-    color: #e2dedb;
-}
 
-/* checkbox */
-.content-input input,
-.content-select select{
-    appearance: none;	
-}
- 
-.content-input input{
-    visibility: hidden;
-    position: absolute;
-    right: 0;
-}
-.content-input{
-    position: relative;
-    margin-bottom: 30px;
-    padding:5px 0 5px 60px; 
-    display: block;
-}
-.content-input input + i{
-    background: #f0f0f0;
-    border:2px solid rgba(0,0,0,0.2);
-    position: absolute; 
-    left: 0;
-    top: 0;
-}
-.content-input input[type=checkbox ] + i{
-    width: 52px;
-    height: 30px;
-    border-radius: 15px;
-}
-.content-input input[type=checkbox] + i:before{
-    content: '';
-    width: 30px;
-    height: 30px;
-    background: #fff;
-    border-radius: 50%;
-    position: absolute;
-    z-index: 1;
-    left: 0px;
-    top: 0px;	
-    box-shadow: 3px 0 3px 0 rgba(0,0,0,0.2);
-    transition: all 0.15s ease 0.15s;
-}
-.content-input input[type=checkbox]:checked + i:before{
-    left: 22px;	
-    box-shadow: 3px 0 -3px 0 rgba(0,0,0,0.2);
-}
- 
-.content-input input[type=checkbox]:checked + i{
-    background: #2AC176;
-}
-.content-input input[type=checkbox] + i:after{
-    content: 'SI';
-    position: absolute;
-    font-size: 15px;
-    font-weight: 400;
-    color: rgba(255,255,255,0.6);
-    top: 8px;
-    left: 4px;
-    opacity: 0;
-    transition: all 0.25s ease 0.25s;
-} 
-
-.content-input input[type=checkbox]:checked + i:after{
-    opacity: 1;
-}
 
 /* FIN CONTACTO */
 
