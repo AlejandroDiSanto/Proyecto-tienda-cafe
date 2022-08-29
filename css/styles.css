@@ -10,6 +10,7 @@
   background-position: 0 130px;
   -webkit-animation: filling 4s infinite;
           animation: filling 4s infinite;
+  margin-top: 150px;
 }
 
 @-webkit-keyframes filling {
@@ -151,6 +152,25 @@ body {
 
 .header__span {
   color: #B39980;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #B39980;
+}
+
+.main {
+  grid-area: main;
+  background-color: transparent;
+}
+
+main {
+  font-size: 80px;
+  color: #ffffff;
+  text-shadow: 4px 4px 4px #726659;
 }
 
 .footer {
