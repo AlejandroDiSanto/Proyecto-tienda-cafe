@@ -1,0 +1,40 @@
+* { 
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font-family: 'raleway', serif;
+    font-size: 1.2rem;
+    min-height: 100%;
+    background-image: url(../images/cafemovil.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.grid-container > * {    
+    padding: 10px;
+    text-align: center;
+}
+.grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template:
+        "header"  150px      
+        "main"    auto     
+        "footer"  200px;
+}
+@media (min-width: 900px) {
+    .grid-container {
+        grid-template-columns: auto;
+        grid-template-rows: 150px auto 200px ;
+        grid-template-areas:
+        "header"  
+        "main" 
+        "footer";         
+    }
+}

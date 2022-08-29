@@ -1,3 +1,137 @@
+.cup {
+  position: relative;
+  width: 220px;
+  height: 180px;
+  border: 8px solid #ffefdb;
+  box-shadow: 0 0 0 12px #352a22;
+  border-radius: 10px 10px 60px 75px;
+  background: url("../images/coffeelogo.png");
+  background-repeat: repeat-x;
+  background-position: 0 130px;
+  -webkit-animation: filling 4s infinite;
+          animation: filling 4s infinite;
+}
+
+@-webkit-keyframes filling {
+  0%, 100% {
+    background-position: 0 130px;
+  }
+  50% {
+    background-position: 600px -70px;
+  }
+}
+
+@keyframes filling {
+  0%, 100% {
+    background-position: 0 130px;
+  }
+  50% {
+    background-position: 600px -70px;
+  }
+}
+.cup .cup-handle {
+  position: absolute;
+  top: 10px;
+  right: -74px;
+  width: 65px;
+  height: 120px;
+  border: 12px solid #352a22;
+  border-radius: 20px 10px 50px 20px;
+}
+
+.cup .steam {
+  position: absolute;
+  border-radius: 10px 2px;
+  width: 8px;
+  -webkit-animation: steaming 2s infinite;
+          animation: steaming 2s infinite;
+}
+
+@-webkit-keyframes steaming {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    filter: blur(0.8px);
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes steaming {
+  0%, 100% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    filter: blur(0.8px);
+    transform: translateY(-10px);
+  }
+}
+.cup .steam:nth-child(1) {
+  top: -70px;
+  left: 65px;
+  height: 30px;
+  background: #bbb5af;
+  -webkit-animation-delay: 0.2s;
+          animation-delay: 0.2s;
+}
+
+.cup .steam:nth-child(2) {
+  top: -120px;
+  left: 95px;
+  height: 50px;
+  background: #bbb5af;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
+}
+
+.cup .steam:nth-child(3) {
+  top: -90px;
+  left: 125px;
+  height: 40px;
+  background: #bbb5af;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "raleway", serif;
+  font-size: 1.2rem;
+  min-height: 100%;
+  background-image: url(../images/cafemovil.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.grid-container > * {
+  padding: 10px;
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  gap: 10px;
+  grid-template: "header" 150px "main" auto "footer" 200px;
+}
+
+@media (min-width: 900px) {
+  .grid-container {
+    grid-template-columns: auto;
+    grid-template-rows: 150px auto 200px;
+    grid-template-areas: "header" "main" "footer";
+  }
+}
 .header {
   grid-area: header;
   background-color: transparent;
@@ -17,4 +151,8 @@
 
 .header__span {
   color: #B39980;
+}
+
+.footer {
+  grid-area: footer;
 }/*# sourceMappingURL=styles.css.map */
