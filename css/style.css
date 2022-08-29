@@ -30,24 +30,6 @@ body {
         "footer"  200px;
 }
 
-.header__span {
-    color: #B39980;
-}
-
-.header {
-    grid-area: header;    
-    background-color: transparent;    
-    font-size: 25px;
-    color: #ffffff;    
-}
-.header__logo {
-    display: flex;
-    align-items: center;
-}
-.header__logo img{
-    width: 100px;
-    height: 100px;
-}
 .nav-link {
     color: #ffffff;
 }
