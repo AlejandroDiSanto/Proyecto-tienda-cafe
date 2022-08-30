@@ -1,21 +1,14 @@
-.carta {        
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.text-primary {
+    color: #FEA116 !important;
 }
-.producto__foto {
-    width: 30%;
-}  
-   
-.producto{
-    padding-top: 10px;       
-}    
-.producto__info{
-    width: 50%;
+.titulo-2 {
+    color: #fff;
 }
-.foto-main img {
-    width: 80%;
-    height: 80%;
-    object-fit: cover;   
-    margin-top: 10px;
-}   
+.texto-1 {
+    color: #fff;
+}
+.border-start {
+    border-left: {
+        color: #FEA116 !important;
+    };
+}
