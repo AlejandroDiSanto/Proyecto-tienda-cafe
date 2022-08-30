@@ -1,0 +1,59 @@
+label {
+    color: #bbb5af;
+    font-size: 20px;
+}
+input {
+    font-size: 16px;
+    width: 470px;
+    height: 50px;
+    padding: 0px 15px 0px 15px;
+    background: #ffffff;
+    outline: none;
+    color: #726659;
+    border: solid 1px #b3aca7;
+    border-bottom: none;
+    transition: all 0.3s ease-in-out;
+    }
+    
+    input:hover {
+    background: #b3aca7;
+    color: #e2dedb;
+    }
+
+input::input-placeholder, textarea::input-placeholder {
+    color: #aca49c;
+    font-size: 16px;
+}
+
+input:focus::input-placeholder, textarea:focus::input-placeholder {
+    color: #bbb5af;
+}
+
+input::placeholder, textarea::placeholder {
+    color: #aca49c;
+    font-size: 16px;
+}
+
+input:focus::placeholder, textarea:focus::placeholder {
+    color: #bbb5af;
+}
+  
+/* hover en placeholder */
+
+input:hover::input-placeholder, textarea:hover::input-placeholder {
+    color: #e2dedb;
+    font-size: 16px;
+}
+
+input:hover:focus::input-placeholder, textarea:hover:focus::input-placeholder {
+    color: #cbc6c1;
+}
+
+input:hover::placeholder, textarea:hover::placeholder {
+    color: #e2dedb;
+    font-size: 16px;
+}
+
+input:hover:focus::placeholder, textarea:hover:focus::placeholder {
+    color: #cbc6c1;
+}

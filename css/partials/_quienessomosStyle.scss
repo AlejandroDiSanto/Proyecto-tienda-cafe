@@ -1,0 +1,21 @@
+.carta {        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.producto__foto {
+    width: 30%;
+}  
+   
+.producto{
+    padding-top: 10px;       
+}    
+.producto__info{
+    width: 50%;
+}
+.foto-main img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;   
+    margin-top: 10px;
+}   

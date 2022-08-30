@@ -11,10 +11,12 @@ body {
     font-family: 'raleway', serif;
     font-size: 1.2rem;
     min-height: 100%;
-    background-image: url(../images/cafemovil.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(../images/cafemovil.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    
+    
 }
 .grid-container > * {    
     padding: 10px;

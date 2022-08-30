@@ -1,137 +1,4 @@
-/* INICIO QUIENES SOMOS */
-.card {
-    box-shadow: 6px 6px 4px#000;
-}
-.card:hover {
-    transform: scale(1.02);
-    transition: all 0.4s ease-in-out;
-    box-shadow: 12px 12px 8px #000;
-}
 
-/* FIN QUIENES SOMOS */ 
-
-/* INICIO GALERIA */
-.img-fluid {
-    box-shadow: 6px 6px 4px#000;
-}
-.img-fluid:hover {
-    transform: scale(1.02);
-    transition: all 0.4s ease-in-out;
-    box-shadow: 12px 12px 8px #000;
-}
-/* FIN GALERIA */
-
-/* INICIO PRODUCTOS */
-.main producto {    
-    padding-top: 10px;
-    display: grid;
-    grid-template-columns: repeat(1, 100%);    
-}
-.producto__foto {        
-    margin: 0px 10px 0 10px;        
-}
-.producto__info {
-    font-size: 20px;
-    color: #ffffff;
-    line-height: 25px;    
-    text-align: center;
-    text-shadow: 4px 4px 4px#726659;              
-}
-.foto-main {
-    grid-area: img1;
-}
-.foto-main img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;   
-    margin-top: 10px;
-}
-.producto__info .title {
-    text-shadow: 3px 3px 4px#726659; 
-}
-.producto__info .precio {
-    text-shadow: 2px 2px 4px#726659; 
-}
-.producto__info .descripcion {
-    font-size: 20px;
-    text-shadow: 2px 2px 4px#726659;     
-}
-.producto__info ul {
-    list-style-type: none;
-    text-decoration: none;
-    padding-left: 5px;    
-}
-
-/* FIN PRODUCTOS */
-
-/* INICIO CONTACTO */
-
-
-label {
-    color: #bbb5af;
-    font-size: 20px;
-}
-input {
-    font-size: 16px;
-    width: 470px;
-    height: 50px;
-    padding: 0px 15px 0px 15px;
-    background: #ffffff;
-    outline: none;
-    color: #726659;
-    border: solid 1px #b3aca7;
-    border-bottom: none;
-    transition: all 0.3s ease-in-out;
-    }
-    
-    input:hover {
-    background: #b3aca7;
-    color: #e2dedb;
-    }
-
-input::input-placeholder, textarea::input-placeholder {
-    color: #aca49c;
-    font-size: 16px;
-}
-
-input:focus::input-placeholder, textarea:focus::input-placeholder {
-    color: #bbb5af;
-}
-
-input::placeholder, textarea::placeholder {
-    color: #aca49c;
-    font-size: 16px;
-}
-
-input:focus::placeholder, textarea:focus::placeholder {
-    color: #bbb5af;
-}
-  
-/* hover en placeholder */
-
-input:hover::input-placeholder, textarea:hover::input-placeholder {
-    color: #e2dedb;
-    font-size: 16px;
-}
-
-input:hover:focus::input-placeholder, textarea:hover:focus::input-placeholder {
-    color: #cbc6c1;
-}
-
-input:hover::placeholder, textarea:hover::placeholder {
-    color: #e2dedb;
-    font-size: 16px;
-}
-
-input:hover:focus::placeholder, textarea:hover:focus::placeholder {
-    color: #cbc6c1;
-}
-
-
-
-
-
-/* FIN CONTACTO */
 
 /* INICIO MEDIA QUERIES 600PX Y 900PX */
 
@@ -145,12 +12,7 @@ input:hover:focus::placeholder, textarea:hover:focus::placeholder {
       "footer";        
     }   
     /*-------------------------------------*/ 
-    .foto-main img {
-        width: 80%;
-        height: 80%;
-        object-fit: cover;   
-        margin-top: 10px;
-    }    
+       
   }
 
 /*-------------------------------------*/
@@ -159,21 +21,7 @@ input:hover:focus::placeholder, textarea:hover:focus::placeholder {
             
     }           
     /*-------------------------------------*/    
-    .carta {        
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .producto__foto {
-        width: 30%;
-    }  
-       
-    .producto{
-        padding-top: 10px;       
-    }    
-    .producto__info{
-        width: 50%;
-    }   
+      
 
 
 /* FIN MEDIA QUERIES 600PX Y 900PX */
