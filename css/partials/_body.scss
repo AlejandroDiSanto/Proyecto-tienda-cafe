@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    font-family: 'raleway', serif;
+    font-family: map-get($font, primaryFont);
     font-size: 1.2rem;
     min-height: 100%;
     background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(../images/cafemovil.jpg);
@@ -31,13 +31,3 @@ body {
         "footer"  200px;
 }
 
-@media (min-width: 900px) {
-    .grid-container {
-        grid-template-columns: auto;
-        grid-template-rows: 150px auto 200px ;
-        grid-template-areas:
-        "header"  
-        "main" 
-        "footer";         
-    }
-}

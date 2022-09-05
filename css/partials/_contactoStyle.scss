@@ -1,5 +1,5 @@
 label {
-    color: #bbb5af;
+    color: map-get($contactoColor, etiquetaColorPrincipal);
     font-size: 20px;
 }
 input {
@@ -17,43 +17,43 @@ input {
     
     input:hover {
     background: #b3aca7;
-    color: #e2dedb;
+    color: map-get($contactoColor, etiquetaColorHoverPrincipal);
     }
 
 input::input-placeholder, textarea::input-placeholder {
-    color: #aca49c;
+    color: map-get($contactoColor, etiquetaColorSecundario);
     font-size: 16px;
 }
 
 input:focus::input-placeholder, textarea:focus::input-placeholder {
-    color: #bbb5af;
+    color: map-get($contactoColor, etiquetaColorPrincipal);
 }
 
 input::placeholder, textarea::placeholder {
-    color: #aca49c;
+    color: map-get($contactoColor, etiquetaColorSecundario);
     font-size: 16px;
 }
 
 input:focus::placeholder, textarea:focus::placeholder {
-    color: #bbb5af;
+    color: map-get($contactoColor, etiquetaColorPrincipal);
 }
   
 /* hover en placeholder */
 
 input:hover::input-placeholder, textarea:hover::input-placeholder {
-    color: #e2dedb;
+    color: map-get($contactoColor, etiquetaColorHoverPrincipal);
     font-size: 16px;
 }
 
 input:hover:focus::input-placeholder, textarea:hover:focus::input-placeholder {
-    color: #cbc6c1;
+    color: map-get($contactoColor, etiquetaColorHoverSecundario);
 }
 
 input:hover::placeholder, textarea:hover::placeholder {
-    color: #e2dedb;
+    color: map-get($contactoColor, etiquetaColorHoverPrincipal);
     font-size: 16px;
 }
 
 input:hover:focus::placeholder, textarea:hover:focus::placeholder {
-    color: #cbc6c1;
+    color: map-get($contactoColor, etiquetaColorHoverSecundario);
 }

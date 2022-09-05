@@ -8,20 +8,13 @@
     box-shadow: 12px 12px 8px #000;
 }
 .producto__info {
-    font-size: 20px;
-    color: #ffffff;
-    line-height: 25px;    
-    text-align: center;
-    text-shadow: 4px 4px 4px#726659;              
+    @extend %productoBase;              
 }
 .foto-main {
     grid-area: img1;
 }
 .foto-main img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;   
-    margin-top: 10px;
+    @extend %fotoProductos;
 }
 .producto__info .title {
     text-shadow: 3px 3px 4px#726659; 

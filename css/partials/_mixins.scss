@@ -1,0 +1,6 @@
+@mixin flex($align, $height, $width) {
+    display: flex;
+    align-items: $align;
+    height: $height;
+    width: $width;
+}

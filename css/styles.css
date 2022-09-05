@@ -106,7 +106,7 @@ html {
 }
 
 body {
-  font-family: "raleway", serif;
+  font-family: "Roboto", sans-serif;
   font-size: 1.2rem;
   min-height: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cafemovil.jpg);
@@ -126,13 +126,6 @@ body {
   grid-template: "header" 150px "main" auto "footer" 200px;
 }
 
-@media (min-width: 900px) {
-  .grid-container {
-    grid-template-columns: auto;
-    grid-template-rows: 150px auto 200px;
-    grid-template-areas: "header" "main" "footer";
-  }
-}
 .header {
   grid-area: header;
   background-color: transparent;
@@ -345,6 +338,21 @@ input:hover:focus::placeholder, textarea:hover:focus::placeholder {
   border-left-color: #FEA116 !important;
 }
 
+@media (min-width: 600px) {
+  .grid-container {
+    grid-template-columns: auto;
+    grid-template-rows: 150px auto 200px;
+    grid-template-areas: "header" "main" "footer";
+  }
+  /*-------------------------------------*/
+}
+@media (min-width: 900px) {
+  .grid-container {
+    grid-template-columns: auto;
+    grid-template-rows: 150px auto 200px;
+    grid-template-areas: "header" "main" "footer";
+  }
+}
 .footer {
   grid-area: footer;
 }/*# sourceMappingURL=styles.css.map */

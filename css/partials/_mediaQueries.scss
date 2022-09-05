@@ -1,7 +1,3 @@
-
-
-/* INICIO MEDIA QUERIES 600PX Y 900PX */
-
 @media (min-width: 600px) {
     .grid-container {
       grid-template-columns: auto;
@@ -15,17 +11,13 @@
        
   }
 
-/*-------------------------------------*/
-  
 @media (min-width: 900px) {
-            
-    }           
-    /*-------------------------------------*/    
-      
-
-
-/* FIN MEDIA QUERIES 600PX Y 900PX */
-
-/* ANIMACION TAZA */
-
-
+    .grid-container {
+        grid-template-columns: auto;
+        grid-template-rows: 150px auto 200px ;
+        grid-template-areas:
+        "header"  
+        "main" 
+        "footer";         
+    }
+}
