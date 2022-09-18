@@ -96,6 +96,14 @@
           animation-delay: 1s;
 }
 
+.foto-main img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -106,7 +114,7 @@ html {
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Serif";
   font-size: 1.2rem;
   min-height: 100%;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/cafemovil.jpg);
@@ -116,7 +124,6 @@ body {
 }
 
 .grid-container > * {
-  padding: 10px;
   text-align: center;
 }
 
@@ -133,18 +140,13 @@ body {
   color: #ffffff;
 }
 
-.header__logo {
-  display: flex;
-  align-items: center;
-}
-
 .header__logo img {
-  width: 100px;
   height: 100px;
+  width: 100px;
 }
 
 .header__span {
-  color: #B39980;
+  color: #FEA116;
 }
 
 .nav-link {
@@ -152,7 +154,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #B39980;
+  color: #FEA116;
 }
 
 .main {
@@ -161,9 +163,49 @@ body {
 }
 
 main {
-  font-size: 80px;
   color: #ffffff;
-  text-shadow: 4px 4px 4px #726659;
+}
+
+.titulo {
+  font-family: "Dancing Script";
+  font-size: 90px;
+}
+
+.section-heading-upper {
+  color: #FEA116;
+  display: flex;
+  justify-content: center;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.section-heading-lower {
+  font-size: 3rem;
+  font-weight: 100;
+  color: #000;
+}
+
+.intro {
+  margin-bottom: 5rem;
+}
+
+.bg-faded {
+  background-color: #f6e1c5;
+}
+
+.bg-faded p {
+  color: #000;
+}
+
+.cta {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: rgba(230, 167, 86, 0.9);
+  box-sizing: border-box;
+}
+
+.cta .row {
+  margin: 0;
 }
 
 label {
@@ -273,7 +315,6 @@ input:hover:focus::placeholder, textarea:hover:focus::placeholder {
 }
 
 .card {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../images/cafemolido.jpg);
   box-shadow: 6px 6px 4px #000;
 }
 
@@ -283,37 +324,12 @@ input:hover:focus::placeholder, textarea:hover:focus::placeholder {
   box-shadow: 12px 12px 8px #000;
 }
 
-.producto__info {
-  font-size: 20px;
-  color: #ffffff;
-  line-height: 25px;
-  text-align: center;
-  text-shadow: 4px 4px 4px #726659;
-}
-
 .foto-main {
   grid-area: img1;
 }
 
-.foto-main img {
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  margin-top: 10px;
-}
-
-.producto__info .title {
-  text-shadow: 3px 3px 4px #726659;
-}
-
-.producto__info .precio {
-  text-shadow: 2px 2px 4px #726659;
-}
-
 .producto__info .descripcion {
   font-size: 20px;
-  text-shadow: 2px 2px 4px #726659;
 }
 
 .producto__info ul {

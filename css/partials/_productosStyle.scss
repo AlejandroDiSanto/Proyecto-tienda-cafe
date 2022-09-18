@@ -1,5 +1,4 @@
-.card {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)) , url(../../images/cafemolido.jpg);
+.card {    
     box-shadow: 6px 6px 4px#000;
 }
 .card:hover {
@@ -8,7 +7,7 @@
     box-shadow: 12px 12px 8px #000;
 }
 .producto__info {
-    @extend %productoBase;              
+                  
 }
 .foto-main {
     grid-area: img1;
@@ -17,14 +16,14 @@
     @extend %fotoProductos;
 }
 .producto__info .title {
-    text-shadow: 3px 3px 4px#726659; 
+     
 }
 .producto__info .precio {
-    text-shadow: 2px 2px 4px#726659; 
+    
 }
 .producto__info .descripcion {
     font-size: 20px;
-    text-shadow: 2px 2px 4px#726659;     
+        
 }
 .producto__info ul {
     list-style-type: none;

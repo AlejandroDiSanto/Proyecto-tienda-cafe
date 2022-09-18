@@ -18,47 +18,37 @@
 <body class="grid-container">
   
     <header class="header">
-      <nav class="navbar navbar-dark fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black bg-opacity-75 fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <div class="header__logo">
               <img src="../images/logo.png" alt="logo">
             </div>
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-              <a class="navbar-brand" href="#">
-                <div class="header__logo">
-                  <img src="../images/logo.png" alt="logo">
-                </div>
-              </a>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto bg-transparent">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html" aria-current="page">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./quienessomos.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
             </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">                
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./quienessomos.html">Quienes Somos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./productos.html">Productos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./galeria.html">Galeria</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./contacto.html">Contacto</a>
-                </li>
-              </ul>              
-            </div>
-          </div>
         </div>
-      </nav>         
+      </nav>        
     </header>
 
     <div class="container-xxl py-5">
@@ -82,9 +72,9 @@
               </div>
               <div class="col-lg-6">
                   <h5 class="section-title ff-secondary text-start text-primary fw-normal">Acerca de nosotros</h5>
-                  <h1 class="mb-4 titulo-2">Bienvenido a Coffee Place</h1>
-                  <p class="mb-4 texto-1">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos erat ipsum et lorem et sit, sed stet lorem sit.</p>
-                  <p class="mb-4 texto-1">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                  <h1 class="mb-4 titulo-2">Bienvenidos a Coffee Place</h1>
+                  <p class="mb-4 texto-1">Utilizamos unicamente los ingredientes mas frescos y tostamos los granos de cafe localmente.</p>
+                  <p class="mb-4 texto-1">Imaginamos en un futuro, traer juntos sabores locales y extranjeros sin comprometer el sabor y la calidad. Nuestro concepto, permite a nuestro equipo estar en contacto con nuestros clientes con la intencion de traerles la mejor experiencia posible.</p>
                   <div class="row g-4 mb-4">
                       <div class="col-sm-6">
                           <div class="d-flex align-items-center border-start border-5 border-primary px-3">
@@ -97,7 +87,7 @@
                       </div>
                       <div class="col-sm-6">
                           <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                              <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">10</h1>
+                              <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up">4</h1>
                               <div class="ps-4 texto-1">
                                   <p class="mb-0">Popular</p>
                                   <h6 class="text-uppercase mb-0">Baristas</h6>
@@ -108,13 +98,41 @@
               </div>
           </div>
       </div>
+      <details class="row py-3 g-2 mt-5 d-flex align-items-center border-start border-5 border-primary px-3 bg-black bg-opacity-75 text-primary">
+        <summary>Cual es el cafe mas adecuado para mi. </summary>
+        <div class="content">
+          <p>
+            Elegir un tipo de café u otro depende, por supuesto, de tus gustos en cuanto a las texturas, sabores y potencias del mismo. Sin embargo, sí podemos decirte que, como norma general, los cafés tales como el expresso y el ristretto gustarán a aquellos capaces de apreciar los sabores fuertes y potentes.
+
+            No obstante, el café americano es propio de las personas que desean experiencias menos fuertes con esta bebida, alejando así el sabor amargo.
+
+            El cortado y el café con leche será ideal para los que gusten de esta bebida láctea. Elegir uno u otro tipo dependerá, finalmente, de cuán fuerte guste el sabor.
+          </p>          
+        </div>
+      </details>
+      <details class="row py-3 g-2 mt-1 d-flex align-items-center border-start border-5 border-primary px-3 bg-black bg-opacity-75 text-primary">
+        <summary>Que beneficios tiene el cafe? </summary>
+        <div class="content">
+          <p>
+           Es rico en antioxidantes, activa la mente, es bueno contra el dolor de cabeza esporadico, contribuye a la perdida de peso, lucha contra el deterioro cognitivo, es un antidepresivo natural, entre otras cosas.
+          </p>          
+        </div>
+      </details>
+      <details class="row py-3 g-2 mt-1 d-flex align-items-center border-start border-5 border-primary px-3 bg-black bg-opacity-75 text-primary">
+        <summary>Como me contacto con ustedes. </summary>
+        <div class="content">
+          <p>
+            Ve a la seccion de <strong>CONTACTO</strong> y podras ver todas las formas de comunicarte con nosotros.
+          </p>          
+        </div>
+      </details>
   </div>
   
 
     <div class="container">
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">          
-          <span class="mb-3 mb-md-0 text-white">&copy; 2022 Company, Inc</span>
+          <span class="mb-3 mb-md-0 text-white">&copy; 2022 Coffee Company, Inc</span>
         </div>    
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
           <li class="ms-3"><a href="https://www.twitter.com"><i class="bi bi-twitter" style="font-size: 1.5rem; color: white;"><use xlink:href="#twitter"/></i></a></li>

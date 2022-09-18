@@ -4,8 +4,11 @@
     font-size: 25px;
     color: #ffffff;    
 }
-.header__logo {
-    @include flex($align: center, $height: 100px, $width:100px)
+.header__logo {    
+    img {
+        height: 100px;
+        width: 100px;
+    }
 }
 
 .header__span {
@@ -14,7 +17,6 @@
 .nav-link {
     color: #ffffff;
 }
-.nav-link:hover {
-    color: map-get($links, linkHoverColor);
+.nav-link:hover {     
+    color: map-get($links, linkHoverColor);    
 }
-

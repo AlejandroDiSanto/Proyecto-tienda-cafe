@@ -18,54 +18,43 @@
 <body class="grid-container">
   
   <header class="header">
-    <nav class="navbar navbar-dark fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black bg-opacity-75 fixed-top navbar">
       <div class="container-fluid">
         <a class="navbar-brand" href="#">
           <div class="header__logo">
             <img src="../images/logo.png" alt="logo">
           </div>
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-          <div class="offcanvas-header">
-            <a class="navbar-brand" href="#">
-              <div class="header__logo">
-                <img src="../images/logo.png" alt="logo">
-              </div>
-            </a>
-            <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ms-auto bg-transparent">
+                  <li class="nav-item">
+                      <a class="nav-link" href="../index.html" aria-current="page">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./quienessomos.html">Quienes Somos</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./productos.html">Productos</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./galeria.html">Galeria</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="./contacto.html">Contacto</a>
+                  </li>
+              </ul>
           </div>
-          <div class="offcanvas-body">
-            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">                
-              <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./quienessomos.html">Quienes Somos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./productos.html">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./galeria.html">Galeria</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="./contacto.html">Contacto</a>
-              </li>
-            </ul>
-            
-          </div>
-        </div>
       </div>
-    </nav>       
+    </nav>      
   </header>    
 
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <div class="card mb-4 text-white">
+          <div class="card mb-4 text-white bg-black bg-opacity-75">
              <img class="card-img-top" src="../images/coffeebag.png" alt="Card image cap">
              <div class="card-body">                
                 <div class="producto__info">
@@ -89,7 +78,7 @@
           </div>
         </div>
         <div class="col-md-4">
-          <div class="card mb-4 text-white bg-dark">
+          <div class="card mb-4 text-white bg-black bg-opacity-75">
              <img class="card-img-top" src="../images/coffeebag.png" alt="Card image cap">
              <div class="card-body">                
                 <div class="producto__info">
@@ -113,7 +102,7 @@
           </div>
         </div>
         <div class="col-md-4">
-            <div class="card mb-4 text-white bg-dark">
+            <div class="card mb-4 text-white bg-black bg-opacity-75">
               <img class="card-img-top" src="../images/coffeebag.png" alt="Card image cap">
               <div class="card-body">
                 <div class="producto__info">
@@ -136,13 +125,87 @@
               </div>
             </div>
         </div>
+        <div class="col-md-4">
+          <div class="card mb-4 text-white bg-black bg-opacity-75">
+             <img class="card-img-top" src="../images/coffeebag.png" alt="Card image cap">
+             <div class="card-body">                
+                <div class="producto__info">
+                  <div class="title">
+                    <h1>Coffee Indonesia</h1>        
+                  </div>
+                  <div class="precio">
+                    $ <span>1500</span>
+                  </div>     
+                  <div class="descripcion">
+                    <h3>Propiedades</h3>
+                    <ul>
+                      <li>Aroma: Unico</li>
+                      <li>Sabor: Mora, Te Negro</li>
+                      <li>Tostado: Medio</li>
+                      <li>Intensidad: 3/10</li>
+                    </ul>
+                  </div>      
+                </div>                
+             </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card mb-4 text-white bg-black bg-opacity-75">
+             <img class="card-img-top" src="../images/coffeebag.png" alt="Card image cap">
+             <div class="card-body">                
+                <div class="producto__info">
+                  <div class="title">
+                    <h1>Coffee Colombia</h1>        
+                  </div>
+                  <div class="precio">
+                    $ <span>1300</span>
+                  </div>     
+                  <div class="descripcion">
+                    <h3>Propiedades</h3>
+                    <ul>
+                      <li>Aroma: Complejo</li>
+                      <li>Sabor: Macadamia, Cherry</li>
+                      <li>Tostado: Alto</li>
+                      <li>Intensidad: 7/10</li>
+                    </ul>
+                  </div>      
+                </div>                
+             </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4 text-white bg-black bg-opacity-75">
+              <img class="card-img-top" src="../images/coffeebag.png" alt="Card image cap">
+              <div class="card-body">
+                <div class="producto__info">
+                  <div class="title">
+                    <h1>Coffee Costa Rica</h1>        
+                  </div>
+                  <div class="precio">
+                    $ <span>1100</span>
+                  </div>     
+                  <div class="descripcion">
+                    <h3>Propiedades</h3>
+                    <ul>
+                      <li>Aroma: Distintivo</li>
+                      <li>Sabor: Pecan, Molasses</li>
+                      <li>Tostado: Medio</li>
+                      <li>Intensidad: 6/10</li>
+                    </ul>
+                  </div>      
+                </div>                 
+              </div>
+            </div>
+        </div>
+      </div>
+    </div> 
       </div>
     </div> 
 
     <div class="container">
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">          
-          <span class="mb-3 mb-md-0 text-white">&copy; 2022 Company, Inc</span>
+          <span class="mb-3 mb-md-0 text-white">&copy; 2022 Coffee Company, Inc</span>
         </div>
     
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">

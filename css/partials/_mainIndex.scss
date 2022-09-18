@@ -2,8 +2,40 @@
     grid-area: main;
     background-color: transparent;
 }
-main {        
-    font-size: 80px;    
-    color: #ffffff;
-    text-shadow: 4px 4px 4px#726659;        
-} 
+main { 
+    color: #ffffff;            
+}
+.titulo {
+    font-family: map-get($font, secondaryFont);
+    font-size: 90px;
+}
+.section-heading-upper {
+    color: map-get($links, linkHoverColor);
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.section-heading-lower{
+    font-size: 3rem;
+    font-weight: 100;
+    color: #000;
+}
+.intro {
+    margin-bottom: 5rem;
+}
+.bg-faded {
+    background-color: #f6e1c5;
+}
+.bg-faded p {
+    color: #000;
+}
+.cta {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: rgba(230, 167, 86, 0.9);
+    box-sizing: border-box;    
+}
+.cta .row {
+    margin: 0;
+}

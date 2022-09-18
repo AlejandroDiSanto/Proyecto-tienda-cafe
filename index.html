@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Uchen&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <meta name="description" content="Pagina de sitio de granos de cafe">
     <meta name="keywords" content="CAFE, COFFEE, GRANOS, INFUSION, EXPRESSO, BLENDS">
     <title>Coffee Place</title>
@@ -19,47 +20,37 @@
 <body class="grid-container">
     
     <header class="header">               
-      <nav class="navbar navbar-dark fixed-top">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-black bg-opacity-75 fixed-top">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <div class="header__logo">
-              <img src="./images/logo.png" alt="logo">
+              <img src="../images/logo.png" alt="logo">
             </div>
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-              <a class="navbar-brand" href="#">
-                <div class="header__logo">
-                  <img src="./images/logo.png" alt="logo">
-                </div>
-              </a>
-              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            <button class="navbar-toggler"  type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ms-auto bg-transparent">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html" aria-current="page">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/quienessomos.html">Quienes Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/productos.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/galeria.html">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./html/contacto.html">Contacto</a>
+                    </li>
+                </ul>
             </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">                
-                <li class="nav-item">
-                  <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./html/quienessomos.html">Quienes Somos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./html/productos.html">Productos</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./html/galeria.html">Galeria</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="./html/contacto.html">Contacto</a>
-                </li>
-              </ul>              
-            </div>
-          </div>
         </div>
-      </nav>       
+      </nav>
     </header>
 
     <main class="container-fluid">
@@ -70,16 +61,42 @@
             <span class="steam"></span>
             <span class="steam"></span>
             <div class="cup-handle"></div>
-          </div>        
-        
-        
+          </div>                   
       </div>
+      <h5 class="px-4 pt-5 my-5 text-center">Fundado por la pasion de traer un gran gusto de cafe. Nosotros creemos en que todos merecen una buena taza de cafe para disfrutar cada dia.
+      </h5>
+
+      <section class="page-section clearfix">        
+            <div class="intro">                
+                <div class="intro-text left-0 text-center bg-faded p-5 rounded col-xl-8 mx-auto">
+                    <h2 class="section-heading mb-4">
+                        <span class="section-heading-upper">Cafe Fresco</span>
+                        <span class="section-heading-lower">Vale la pena Tomarlo</span>
+                    </h2>
+                    <p class="mb-3">Cada taza de nuestro cafe empieza surtido por artesanos en varias regiones del mundo, y con ingredientes recolectados a mano. Una vez que lo pruebas, nuestro cafe sera una maravillosa adicion a tu rutina de cada mañana. - lo garantizamos!</p>
+                </div>
+            </div>
+        
+      </section>
+      <section class="page-section cta">        
+              <div class="row">
+                  <div class="col-xl-8 mx-auto">
+                      <div class="cta-inner bg-faded p-5 text-center rounded">
+                          <h2 class="section-heading mb-4">
+                              <span class="section-heading-upper">Nuestra Promesa</span>
+                              <span class="section-heading-lower">Para Ti</span>
+                          </h2>
+                          <p class="mb-0">Cuando entras en nuestro local al inicio del dia, estamos dedicados a proveerte un servicio amigable, con una atmosfera de bienvenida, y por sobre todo lo demas, excelentes productos hechos con la mas alta calidad de ingredientes.</p>
+                      </div>
+                  </div>
+              </div>        
+      </section>
     </main>
     
     <div class="container">
       <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
         <div class="col-md-4 d-flex align-items-center">          
-          <span class="mb-3 mb-md-0 text-white">&copy; 2022 Company, Inc</span>
+          <span class="mb-3 mb-md-0 text-white">&copy; 2022 Coffee Company, Inc</span>
         </div>    
         <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
           <li class="ms-3"><a href="https://www.twitter.com"><i class="bi bi-twitter" style="font-size: 1.5rem; color: white;"><use xlink:href="#twitter"/></i></a></li>
