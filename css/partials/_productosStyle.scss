@@ -6,28 +6,41 @@
     transition: all 0.4s ease-in-out;
     box-shadow: 12px 12px 8px #000;
 }
-.producto__info {
-                  
-}
 .foto-main {
     grid-area: img1;
 }
 .foto-main img {
     @extend %fotoProductos;
 }
-.producto__info .title {
-     
-}
-.producto__info .precio {
-    
-}
 .producto__info .descripcion {
-    font-size: 20px;
-        
+    font-size: 20px;        
 }
 .producto__info ul {
     list-style-type: none;
     text-decoration: none;
-    padding-left: 5px;
-        
+    padding-left: 5px;        
 }
+.card .buy {
+    position: relative;
+    top: 100px;
+    opacity: 0;
+    padding: 10px 30px;
+    margin-top: 15px;
+    color: #000000;
+    text-decoration: none;
+    background: map-get($links, linkHoverColor);
+    border-radius: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: 0.5s;
+  }  
+  .card:hover .buy {
+    top: 0;
+    opacity: 1;
+  }
+  h1 {
+    color: map-get($links, linkHoverColor);
+  }
+  h3 {
+    color: map-get($links, linkHoverColor);
+  }

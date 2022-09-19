@@ -8,6 +8,7 @@ main {
 .titulo {
     font-family: map-get($font, secondaryFont);
     font-size: 90px;
+    color: #ffffff;
 }
 .section-heading-upper {
     color: map-get($links, linkHoverColor);
