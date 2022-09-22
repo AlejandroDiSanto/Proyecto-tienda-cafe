@@ -1,3 +1,11 @@
 .carousel-inner {
     box-shadow: 6px 6px 4px#000;
 }
+.gal {    
+    box-shadow: 6px 6px 4px#000;
+}
+.gal:hover {
+    transform: scale(1.02);
+    transition: all 0.4s ease-in-out;
+    box-shadow: 12px 12px 8px #000;
+}
